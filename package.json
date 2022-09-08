@@ -1,0 +1,42 @@
+{
+  "name": "next-js-serverless",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "email": "bengarr.negocios@gmail.com",
+    "name": "Benjamin Garrido",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "",
+    "issues": ""
+  },
+  "scripts": {
+    "dev": "next dev",
+    "cloud:dev": "next dev",
+    "cloud:build": "next build",
+    "cloud:share": "cloud share",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@serverless/cloud": "^2.10.13",
+    "@types/node": "17.0.21",
+    "@types/react": "17.0.40",
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  },
+  "serverless": {
+    "app": "next-js-serverless",
+    "org": "dyxbenjamin"
+  },
+  "engines": {
+    "node": ">=14.17.0",
+    "npm": ">=6.14.13"
+  }
+}
